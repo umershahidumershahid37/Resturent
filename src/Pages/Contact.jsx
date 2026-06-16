@@ -3,7 +3,7 @@ import React from 'react'
 const Contact = () => {
   return (
     <main className="min-h-screen bg-slate-100 text-slate-900 pt-28 pb-16">
-      <div className="lg:px-8 mt-14 max-w-[93%] mx-auto px-6 md:px-0">
+      <div className="lg:px-8 mt-14 max-w-[97%] mx-auto px-6 md:px-0">
         <div className="text-center mb-16">
           <p className="text-sm uppercase tracking-[0.35em]  text-slate-950font-semibold">Get in touch</p>
           <h1 className="mt-4 text-4xl md:text-5xl font-bold text-amber-500 ">Contact Dum Pukht House</h1>

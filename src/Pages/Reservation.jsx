@@ -3,7 +3,7 @@ import React from 'react'
 const Reservation = () => {
   return (
     <main className="min-h-screen bg-slate-100 text-slate-900 pt-28 pb-16">
-      <div className="max-w-5xl mx-auto px-6 lg:px-8 mt-14 ">
+      <div className=" lg:px-8 mt-14 max-w-[95%] mx-auto px-6 md:px-0 ">
         <div className="text-center mb-14">
           <p className="text-sm uppercase tracking-[0.35em]  text-slate-950 font-semibold">Reserve a table</p>
           <h1 className="mt-4 text-4xl md:text-5xl font-bold text-amber-500 ">Book your table at Dum Pukht House</h1>

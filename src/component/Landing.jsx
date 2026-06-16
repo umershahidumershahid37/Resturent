@@ -3,22 +3,13 @@ import { ArrowRight } from 'lucide-react'
 
 const Landing = () => {
   return (
-    <section id="home" className="relative min-h-screen w-full  flex items-center justify-center pt-24 overflow-hidden">
-      <div className="absolute inset-0 z-0">
-        <img
-          src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&q=80&w=1920"
-          alt="Luxury Awadhi Charcoal Feast Background"
-          className="w-full h-full object-cover scale-105 animate-[subtle-zoom_20s_infinite_alternate]"
-        />
-        <div className="absolute inset-0 bg-gradient-to-r from-zinc-950 via-zinc-950/70 to-zinc-950/40" />
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_30%,rgba(9,9,11,0.95)_90%)]" />
-        <div className="absolute bottom-0 left-0 w-full h-48 bg-gradient-to-t from-zinc-950 to-transparent" />
-      </div>
+    <section id="home" className="relative bg-black  min-h-screen w-full  flex items-center justify-center pt-24 overflow-hidden">
+      
 
       <div className="absolute top-1/3 left-1/4 w-96 h-96 rounded-full bg-amber-600/10 blur-[120px] pointer-events-none mix-blend-screen" />
       <div className="absolute bottom-1/4 right-1/4 w-80 h-80 rounded-full bg-yellow-600/5 blur-[100px] pointer-events-none mix-blend-screen" />
 
-      <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 w-full grid grid-cols-1 lg:grid-cols-12 gap-12 items-center pt-12">
+      <div className="relative z-10 max-w-[93%] mx-auto px-6 md:px-0 w-full grid grid-cols-1 lg:grid-cols-12 gap-12 items-center pt-12">
         <div className="lg:col-span-7 text-center lg:text-left space-y-6 max-w-2xl mx-auto lg:mx-0">
           <div className="inline-flex items-center gap-3 bg-zinc-900/60 border border-amber-500/20 backdrop-blur-md px-4 py-1.5 rounded-full shadow-[inset_0_1px_12px_rgba(245,158,11,0.05)]">
             <span className="w-1.5 h-1.5 rounded-full bg-amber-500 animate-pulse" />
