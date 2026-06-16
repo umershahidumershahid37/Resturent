@@ -68,7 +68,7 @@ const Deals = () => {
 
   return (
     <div className="min-h-screen bg-slate-100 pt-32 mt-10 ">
-      <div className="max-w-7xl mx-auto px-6 md:px-12">
+      <div className=" max-w-[93%] mx-auto px-6 md:px-0">
         
         {/* Header */}
         <div className="text-center mb-16">

@@ -33,15 +33,15 @@ const reviews = [
 
 const Reviews = () => {
   return (
-    <section id="reviews" className="bg-slate-50 py-8">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+    <section id="reviews" className="bg-slate-50 py-8 ">
+      <div className=" sm:px-6 max-w-[93%] mx-auto px-6 md:px-0">
         <div className="text-center mb-10">
           <h2 className="mt-3 text-2xl font-semibold tracking-tight text-amber-400 sm:text-5xl">
             Customer Reviews{" "}
           </h2>
         </div>
 
-        <div className="grid gap-6 sm:grid-cols-2 xl:grid-cols-4">
+        <div className="grid gap-8 sm:grid-cols-2 xl:grid-cols-4">
           {reviews.map((review) => (
             <article
               key={review.name}

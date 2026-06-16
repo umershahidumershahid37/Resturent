@@ -30,8 +30,8 @@ const Imeges = () => {
   ];
 
   return (
-    <section className="w-full py-12 bg-slate-50">
-      <div className="text-center mb-8">
+    <section className="w-full py-12 bg-slate-50 ">
+      <div className="text-center mb-8 max-w-[93%] mx-auto px-6 md:px-0 ">
         <h2 className="text-3xl font-bold text-amber-400">Gallery</h2>
         <p className="text-gray-600 mt-2">Ambiance and experiences</p>
       </div>

@@ -16,7 +16,7 @@ const Gallery = () => {
   return (
     <>
       <main className="min-h-screen bg-slate-100 text-slate-900 pt-28 pb-16">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8 mt-14">
+        <div className=" lg:px-8 mt-14 max-w-[93%] mx-auto px-6 md:px-0">
           <div className="text-center mb-14">
             <p className="text-sm uppercase tracking-[0.35em] text-amber-500 font-semibold">Restaurant Gallery</p>
             <h1 className="mt-4 text-4xl md:text-5xl font-bold text-slate-950">Explore our dining experience</h1>
