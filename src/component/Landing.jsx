@@ -3,7 +3,7 @@ import { ArrowRight } from 'lucide-react'
 
 const Landing = () => {
   return (
-    <section id="home" className="relative bg-black  min-h-screen w-full  flex items-center justify-center pt-24 overflow-hidden">
+    <section id="home" className="relative bg-black  min-h-screen w-full  flex items-center justify-center  overflow-hidden">
       
 
       <div className="absolute top-1/3 left-1/4 w-96 h-96 rounded-full bg-amber-600/10 blur-[120px] pointer-events-none mix-blend-screen" />

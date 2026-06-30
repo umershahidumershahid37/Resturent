@@ -24,14 +24,17 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="bg-black">
+    <nav className="bg-zinc-950">
 
       {/* TOP */}
-      <div className="flex justify-between items-center px-6 md:px-12 py-8">
+
+      <div className="flex justify-between items-center px-6 md:px-12 py-2">
 
         {/* LOGO */}
+
         <Link to="/">
           <div>
+
             <h1 className="text-[40px] font-black text-amber-500">
               Dum Pukht
             </h1>
@@ -39,34 +42,64 @@ const Navbar = () => {
             <p className="text-[12px] tracking-[6px] text-white">
               House
             </p>
+
           </div>
         </Link>
 
         {/* RIGHT */}
+
         <div className="flex items-center gap-4">
 
-          <Link
-            to="/Reservation"
-            className="
-            hidden
-            lg:inline-flex
-            items-center
-            gap-2
-            px-5
-            py-3
-            text-xs
-            font-bold
-            uppercase
-            tracking-[0.2em]
-            bg-amber-500
-            text-zinc-950
-            rounded-sm
-            shadow-lg
-            "
-          >
-            <Calendar className="w-5 h-5" />
-            Book A Table
-          </Link>
+          {/* BOOK + LOGIN */}
+
+          <div className="hidden lg:flex items-center gap-3">
+
+            <Link
+              to="/Reservation"
+              className="
+              inline-flex
+              items-center
+              gap-2
+              px-5
+              py-3
+              text-xs
+              font-bold
+              uppercase
+              tracking-[0.2em]
+              bg-amber-500
+              text-zinc-950
+              rounded-sm
+              shadow-lg
+              "
+            >
+              <Calendar className="w-5 h-5" />
+              Book A Table
+            </Link>
+
+            <Link
+              to="/Login"
+              className="
+              px-5
+              py-3
+              border
+              border-amber-500
+              text-amber-500
+              rounded-sm
+              text-xs
+              font-bold
+              uppercase
+              tracking-[0.2em]
+              hover:bg-amber-500
+              hover:text-black
+              transition
+              "
+            >
+              Login
+            </Link>
+
+          </div>
+
+          {/* ICONS */}
 
           <div className="hidden lg:flex items-center gap-4 border-l border-zinc-800 pl-6 text-zinc-400">
 
@@ -80,7 +113,7 @@ const Navbar = () => {
 
             <button className="relative p-2 hover:text-amber-400">
 
-              <ShoppingBag className="w-6 h-6" />
+              <ShoppingBag size={15} />
 
               <span
                 className="
@@ -122,22 +155,22 @@ const Navbar = () => {
       {/* DESKTOP NAV */}
 
       <div
-       className="
-hidden
-md:flex
-items-center
-justify-center
-gap-10
-mt-8
-pb-4
-px-6
-md:px-12
-text-[11px]
-font-bold
-uppercase
-tracking-[0.25em]
-text-slate-300
-"
+        className="
+        hidden
+        md:flex
+        items-center
+        justify-center
+        gap-10
+        mt-8
+        pb-4
+        px-6
+        md:px-12
+        text-[11px]
+        font-bold
+        uppercase
+        tracking-[0.25em]
+        text-slate-300
+        "
       >
 
         {links.map((link) => (
@@ -161,7 +194,7 @@ text-slate-300
         transition-all
         duration-300
         bg-zinc-950
-        ${open ? "max-h-[500px]" : "max-h-0"}
+        ${open ? "max-h-[600px]" : "max-h-0"}
         `}
       >
 
@@ -182,6 +215,24 @@ text-slate-300
               {link.name}
             </Link>
           ))}
+
+          {/* MOBILE LOGIN */}
+
+          <Link
+            to="/Login"
+            onClick={() => setOpen(false)}
+            className="
+            bg-amber-500
+            text-black
+            py-3
+            rounded
+            text-center
+            font-bold
+            uppercase
+            "
+          >
+            Login
+          </Link>
 
         </div>
 

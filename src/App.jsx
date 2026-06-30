@@ -10,6 +10,9 @@ import AboutUs from './Pages/AboutUs'
 import Contact from './Pages/Contact'
 import Imeges from './component/Imeges'
 import Gallery from './Pages/Gallery'
+import Login from './Pages/Login'
+import Register from './Pages/Register'
+
 
 const App = () => {
   return (
@@ -24,6 +27,8 @@ const App = () => {
         <Route path="/Reservation" element={<Reservation />} />
         <Route path="/Feedback" element={<Feedback />} />
         <Route path="/Contact" element={<Contact />} />
+        <Route path="/Login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
       </Routes>
     </BrowserRouter>
   )
