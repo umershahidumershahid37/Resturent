@@ -15,7 +15,7 @@ const Gallery = () => {
 
   return (
     <>
-      <main className="min-h-screen bg-slate-50 text-slate-900 pt-28 pb-16 mt-14">
+      <main className="min-h-screen bg-slate-50 text-slate-900 pt-8 pb-16 ">
         <div className="max-w-[95%] mx-auto px-4">
           
           {/* Header Section */}

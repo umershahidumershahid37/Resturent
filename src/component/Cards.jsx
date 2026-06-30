@@ -33,7 +33,7 @@ const dishes = [
 
 const Cards = () => {
   return (
-    <section className="bg-slate-100 py-14">
+    <section className="bg-slate-100 py-12">
       <div className=" sm:px-6 max-w-[93%] mx-auto px-6 md:px-0">
         <div className="text-center mb-10">
           <h2 className="mt-4 text-4xl font-semibold tracking-tight text-amber-400 sm:text-5xl">

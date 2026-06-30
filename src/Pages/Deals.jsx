@@ -67,7 +67,7 @@ const Deals = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-slate-100 pt-32 mt-10 ">
+    <div className="min-h-screen bg-slate-100 pt-8 ">
       <div className=" max-w-[93%] mx-auto px-6 md:px-0">
         
         {/* Header */}

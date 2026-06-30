@@ -4,7 +4,7 @@ import Footer from '../component/Footer'
 
 const AboutUs = () => {
   return (
-    <main className="mt-14 min-h-screen flex flex-col">
+    <main className=" min-h-screen flex flex-col">
       <Story />
       <div className="mt-auto">
         <Footer />

@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <div>
       <main className='bg-state-100 text-slate-900'>
-        <Navbar/>
+        {/* <Navbar/> */}
         <Landing/>
         <Cards/>
         <Imeges/>

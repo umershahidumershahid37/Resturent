@@ -4,8 +4,8 @@ import Footer from '../component/Footer'
 
 const OurMenu = () => {
 	return (
-		<div>
-			<h1 className='mt-14'>Our top Dishes</h1>
+		<div className=''>
+	
 			<Cards />
 			<Footer/>
 		</div>
